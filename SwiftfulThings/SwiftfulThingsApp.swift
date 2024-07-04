@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftfulThingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViewModifierBootcamp()
         }
     }
 }
