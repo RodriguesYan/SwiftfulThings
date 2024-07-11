@@ -17,6 +17,7 @@ struct DefaultButtonViewModifier: ViewModifier {
             .background(backgroundColor)
             .cornerRadius(10)
             .shadow(radius: 10)
+            .contentMargins(10)
     }
 }
 

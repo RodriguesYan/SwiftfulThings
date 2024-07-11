@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */; };
+		DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */; };
 		DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */; };
 		DBFAC6612C3764AB004FA0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFAC6602C3764AB004FA0BE /* Assets.xcassets */; };
 		DBFAC6642C3764AB004FA0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFAC6632C3764AB004FA0BE /* Preview Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyles.swift; sourceTree = "<group>"; };
+		DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		DBFAC6592C3764A9004FA0BE /* SwiftfulThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThingsApp.swift; sourceTree = "<group>"; };
 		DBFAC6602C3764AB004FA0BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */,
 				DBFAC66C2C37663F004FA0BE /* ViewModifierBootcamp.swift */,
+				DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */,
+				DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */,
 				DBFAC6602C3764AB004FA0BE /* Assets.xcassets */,
 				DBFAC6622C3764AB004FA0BE /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				DBFAC66D2C37663F004FA0BE /* ViewModifierBootcamp.swift in Sources */,
 				DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */,
+				DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */,
+				DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
