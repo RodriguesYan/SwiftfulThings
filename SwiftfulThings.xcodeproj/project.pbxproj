@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1947762C47360D005336DF /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1947752C47360D005336DF /* CustomShapes.swift */; };
+		DB1947782C473CF6005336DF /* CustomShapesArcsQuadCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */; };
 		DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */; };
+		DB8B362F2C48991600AABDEE /* CustomShapesAnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */; };
+		DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */; };
 		DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */; };
 		DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */; };
 		DBFAC6612C3764AB004FA0BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFAC6602C3764AB004FA0BE /* Assets.xcassets */; };
@@ -16,7 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB1947752C47360D005336DF /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesArcsQuadCurves.swift; sourceTree = "<group>"; };
 		DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyles.swift; sourceTree = "<group>"; };
+		DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesAnimateableData.swift; sourceTree = "<group>"; };
+		DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		DBFAC6592C3764A9004FA0BE /* SwiftfulThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThingsApp.swift; sourceTree = "<group>"; };
@@ -58,6 +66,10 @@
 				DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */,
 				DBFAC66C2C37663F004FA0BE /* ViewModifierBootcamp.swift */,
 				DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */,
+				DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */,
+				DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */,
+				DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */,
+				DB1947752C47360D005336DF /* CustomShapes.swift */,
 				DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */,
 				DBFAC6602C3764AB004FA0BE /* Assets.xcassets */,
 				DBFAC6622C3764AB004FA0BE /* Preview Content */,
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8B362F2C48991600AABDEE /* CustomShapesAnimateableData.swift in Sources */,
+				DB1947762C47360D005336DF /* CustomShapes.swift in Sources */,
 				DBFAC66D2C37663F004FA0BE /* ViewModifierBootcamp.swift in Sources */,
 				DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */,
 				DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */,
 				DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */,
+				DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */,
+				DB1947782C473CF6005336DF /* CustomShapesArcsQuadCurves.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
