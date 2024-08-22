@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0BB6382C599D8C00551AD5 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BB6372C599D8C00551AD5 /* ViewBuilderBootcamp.swift */; };
+		DB0BB63A2C5B035A00551AD5 /* PreferenceKeyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BB6392C5B035A00551AD5 /* PreferenceKeyPage.swift */; };
+		DB0BB63D2C5B081C00551AD5 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BB63C2C5B081C00551AD5 /* GeometryPreferenceKey.swift */; };
+		DB0BB63F2C5B0AE700551AD5 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BB63E2C5B0AE700551AD5 /* ScrollViewOffsetPreferenceKey.swift */; };
 		DB1947762C47360D005336DF /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1947752C47360D005336DF /* CustomShapes.swift */; };
 		DB1947782C473CF6005336DF /* CustomShapesArcsQuadCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */; };
 		DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */; };
+		DB5C17502C49E1D5003B7762 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C174F2C49E1D5003B7762 /* Generics.swift */; };
 		DB8B362F2C48991600AABDEE /* CustomShapesAnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */; };
 		DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */; };
 		DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */; };
@@ -20,9 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB0BB6372C599D8C00551AD5 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		DB0BB6392C5B035A00551AD5 /* PreferenceKeyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyPage.swift; sourceTree = "<group>"; };
+		DB0BB63C2C5B081C00551AD5 /* GeometryPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKey.swift; sourceTree = "<group>"; };
+		DB0BB63E2C5B0AE700551AD5 /* ScrollViewOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 		DB1947752C47360D005336DF /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesArcsQuadCurves.swift; sourceTree = "<group>"; };
 		DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyles.swift; sourceTree = "<group>"; };
+		DB5C174F2C49E1D5003B7762 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesAnimateableData.swift; sourceTree = "<group>"; };
 		DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
@@ -44,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB0BB63B2C5B07F600551AD5 /* PreferenceKeys */ = {
+			isa = PBXGroup;
+			children = (
+				DB0BB6392C5B035A00551AD5 /* PreferenceKeyPage.swift */,
+				DB0BB63C2C5B081C00551AD5 /* GeometryPreferenceKey.swift */,
+				DB0BB63E2C5B0AE700551AD5 /* ScrollViewOffsetPreferenceKey.swift */,
+			);
+			path = PreferenceKeys;
+			sourceTree = "<group>";
+		};
 		DBFAC6502C3764A9004FA0BE = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +86,12 @@
 				DBFAC65C2C3764A9004FA0BE /* SwiftfulThingsApp.swift */,
 				DBFAC66C2C37663F004FA0BE /* ViewModifierBootcamp.swift */,
 				DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */,
+				DB0BB6372C599D8C00551AD5 /* ViewBuilderBootcamp.swift */,
 				DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */,
 				DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */,
+				DB0BB63B2C5B07F600551AD5 /* PreferenceKeys */,
 				DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */,
+				DB5C174F2C49E1D5003B7762 /* Generics.swift */,
 				DB1947752C47360D005336DF /* CustomShapes.swift */,
 				DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */,
 				DBFAC6602C3764AB004FA0BE /* Assets.xcassets */,
@@ -157,12 +180,17 @@
 			files = (
 				DB8B362F2C48991600AABDEE /* CustomShapesAnimateableData.swift in Sources */,
 				DB1947762C47360D005336DF /* CustomShapes.swift in Sources */,
+				DB0BB63D2C5B081C00551AD5 /* GeometryPreferenceKey.swift in Sources */,
 				DBFAC66D2C37663F004FA0BE /* ViewModifierBootcamp.swift in Sources */,
+				DB5C17502C49E1D5003B7762 /* Generics.swift in Sources */,
+				DB0BB63F2C5B0AE700551AD5 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */,
 				DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */,
 				DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */,
 				DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */,
 				DB1947782C473CF6005336DF /* CustomShapesArcsQuadCurves.swift in Sources */,
+				DB0BB6382C599D8C00551AD5 /* ViewBuilderBootcamp.swift in Sources */,
+				DB0BB63A2C5B035A00551AD5 /* PreferenceKeyPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
