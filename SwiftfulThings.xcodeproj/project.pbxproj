@@ -14,6 +14,7 @@
 		DB1947762C47360D005336DF /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1947752C47360D005336DF /* CustomShapes.swift */; };
 		DB1947782C473CF6005336DF /* CustomShapesArcsQuadCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */; };
 		DB21870A2C91051800E7F944 /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2187092C91051800E7F944 /* UIViewRepresentableBootcamp.swift */; };
+		DB21870C2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21870B2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift */; };
 		DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */; };
 		DB5510B32C81343E00B82121 /* TabbarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5510B22C81343E00B82121 /* TabbarItemsPreferenceKey.swift */; };
 		DB5510B52C8139D500B82121 /* TabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5510B42C8139D500B82121 /* TabbarItem.swift */; };
@@ -44,6 +45,7 @@
 		DB1947752C47360D005336DF /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
 		DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesArcsQuadCurves.swift; sourceTree = "<group>"; };
 		DB2187092C91051800E7F944 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		DB21870B2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyles.swift; sourceTree = "<group>"; };
 		DB5510B22C81343E00B82121 /* TabbarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		DB5510B42C8139D500B82121 /* TabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarItem.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */,
 				DB5C174F2C49E1D5003B7762 /* Generics.swift */,
 				DB2187092C91051800E7F944 /* UIViewRepresentableBootcamp.swift */,
+				DB21870B2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift */,
 				DB1947752C47360D005336DF /* CustomShapes.swift */,
 				DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */,
 				DBFAC6602C3764AB004FA0BE /* Assets.xcassets */,
@@ -244,6 +247,7 @@
 				DB5510BA2C86949900B82121 /* CustomNavBarView.swift in Sources */,
 				DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */,
 				DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */,
+				DB21870C2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				DB5510C02C87C1E700B82121 /* CustomNavLink.swift in Sources */,
 				DB5510C22C87C4B200B82121 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				DBDF3EFA2C7808B700CDF2FD /* CustomTabbarView.swift in Sources */,
