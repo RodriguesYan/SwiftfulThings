@@ -12,7 +12,9 @@ struct SwiftfulThingsApp: App {
     var body: some Scene {
         WindowGroup {
 //            MatchedGeometryEffectExample2()
-            AppTabbarView()
+            DependencyInjectionBootcamp(
+                dataService: ProductionDataService()
+            )
         }
     }
 }

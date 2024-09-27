@@ -25,7 +25,16 @@
 		DB5510C02C87C1E700B82121 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5510BF2C87C1E700B82121 /* CustomNavLink.swift */; };
 		DB5510C22C87C4B200B82121 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5510C12C87C4B200B82121 /* CustomNavBarPreferenceKeys.swift */; };
 		DB5C17502C49E1D5003B7762 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C174F2C49E1D5003B7762 /* Generics.swift */; };
+		DB6B11132CA7777D00B0F670 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B11122CA7777D00B0F670 /* NewMockDataService.swift */; };
+		DB6B11152CA777B200B0F670 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B11142CA777B200B0F670 /* NewMockDataService_Tests.swift */; };
+		DB6B11182CA77DAE00B0F670 /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B11172CA77DAE00B0F670 /* UITestingBootcampView.swift */; };
+		DB7F91C22C9A56FE004644D6 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F91C12C9A56FE004644D6 /* ProtocolsBootcamp.swift */; };
+		DB7F91C42C9BAAEC004644D6 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F91C32C9BAAEC004644D6 /* DependencyInjectionBootcamp.swift */; };
 		DB8B362F2C48991600AABDEE /* CustomShapesAnimateableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */; };
+		DB8D92C92CA38D61009839E2 /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92C82CA38D61009839E2 /* UnitTestingBootcampView.swift */; };
+		DB8D92CB2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92CA2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift */; };
+		DB8D92D32CA38F87009839E2 /* SwiftfulThings_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92D22CA38F87009839E2 /* SwiftfulThings_Tests.swift */; };
+		DB8D92DA2CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92D92CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift */; };
 		DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */; };
 		DBDF3EF82C7807C200CDF2FD /* AppTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF3EF72C7807C200CDF2FD /* AppTabbarView.swift */; };
 		DBDF3EFA2C7808B700CDF2FD /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF3EF92C7808B700CDF2FD /* CustomTabbarView.swift */; };
@@ -36,6 +45,16 @@
 		DBFAC6642C3764AB004FA0BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFAC6632C3764AB004FA0BE /* Preview Assets.xcassets */; };
 		DBFAC66D2C37663F004FA0BE /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFAC66C2C37663F004FA0BE /* ViewModifierBootcamp.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB8D92D42CA38F87009839E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBFAC6512C3764A9004FA0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFAC6582C3764A9004FA0BE;
+			remoteInfo = SwiftfulThings;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DB0BB6372C599D8C00551AD5 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
@@ -56,7 +75,17 @@
 		DB5510BF2C87C1E700B82121 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
 		DB5510C12C87C4B200B82121 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		DB5C174F2C49E1D5003B7762 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		DB6B11122CA7777D00B0F670 /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		DB6B11142CA777B200B0F670 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
+		DB6B11172CA77DAE00B0F670 /* UITestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
+		DB7F91C12C9A56FE004644D6 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		DB7F91C32C9BAAEC004644D6 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesAnimateableData.swift; sourceTree = "<group>"; };
+		DB8D92C82CA38D61009839E2 /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
+		DB8D92CA2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel.swift; sourceTree = "<group>"; };
+		DB8D92D02CA38F87009839E2 /* SwiftfulThings_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThings_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8D92D22CA38F87009839E2 /* SwiftfulThings_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThings_Tests.swift; sourceTree = "<group>"; };
+		DB8D92D92CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
 		DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		DBDF3EF72C7807C200CDF2FD /* AppTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabbarView.swift; sourceTree = "<group>"; };
 		DBDF3EF92C7808B700CDF2FD /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
@@ -70,6 +99,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB8D92CD2CA38F87009839E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBFAC6562C3764A9004FA0BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +139,34 @@
 			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
+		DB6B11162CA77CAE00B0F670 /* UITestingBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B11172CA77DAE00B0F670 /* UITestingBootcampView.swift */,
+			);
+			path = UITestingBootcamp;
+			sourceTree = "<group>";
+		};
+		DB8D92C72CA38D23009839E2 /* UnitTestingBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D92C82CA38D61009839E2 /* UnitTestingBootcampView.swift */,
+				DB8D92CA2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift */,
+				DB6B11122CA7777D00B0F670 /* NewMockDataService.swift */,
+			);
+			path = UnitTestingBootcamp;
+			sourceTree = "<group>";
+		};
+		DB8D92D12CA38F87009839E2 /* SwiftfulThings_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D92D22CA38F87009839E2 /* SwiftfulThings_Tests.swift */,
+				DB8D92D92CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift */,
+				DB6B11142CA777B200B0F670 /* NewMockDataService_Tests.swift */,
+			);
+			path = SwiftfulThings_Tests;
+			sourceTree = "<group>";
+		};
 		DBDF3EF42C78078600CDF2FD /* CustomTabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				DBFAC65B2C3764A9004FA0BE /* SwiftfulThings */,
+				DB8D92D12CA38F87009839E2 /* SwiftfulThings_Tests */,
 				DBFAC65A2C3764A9004FA0BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				DBFAC6592C3764A9004FA0BE /* SwiftfulThings.app */,
+				DB8D92D02CA38F87009839E2 /* SwiftfulThings_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +210,13 @@
 				DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */,
 				DB0BB63B2C5B07F600551AD5 /* PreferenceKeys */,
 				DB8B362E2C48991600AABDEE /* CustomShapesAnimateableData.swift */,
+				DB7F91C12C9A56FE004644D6 /* ProtocolsBootcamp.swift */,
+				DB7F91C32C9BAAEC004644D6 /* DependencyInjectionBootcamp.swift */,
 				DB5C174F2C49E1D5003B7762 /* Generics.swift */,
+				DB8D92C72CA38D23009839E2 /* UnitTestingBootcamp */,
 				DB2187092C91051800E7F944 /* UIViewRepresentableBootcamp.swift */,
 				DB21870B2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift */,
+				DB6B11162CA77CAE00B0F670 /* UITestingBootcamp */,
 				DB1947752C47360D005336DF /* CustomShapes.swift */,
 				DB3E96CD2C3CAB7A006CCA6A /* CustomButtonStyles.swift */,
 				DBFAC6602C3764AB004FA0BE /* Assets.xcassets */,
@@ -166,6 +236,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB8D92CF2CA38F87009839E2 /* SwiftfulThings_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8D92D62CA38F87009839E2 /* Build configuration list for PBXNativeTarget "SwiftfulThings_Tests" */;
+			buildPhases = (
+				DB8D92CC2CA38F87009839E2 /* Sources */,
+				DB8D92CD2CA38F87009839E2 /* Frameworks */,
+				DB8D92CE2CA38F87009839E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB8D92D52CA38F87009839E2 /* PBXTargetDependency */,
+			);
+			name = SwiftfulThings_Tests;
+			productName = SwiftfulThings_Tests;
+			productReference = DB8D92D02CA38F87009839E2 /* SwiftfulThings_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DBFAC6582C3764A9004FA0BE /* SwiftfulThings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFAC6672C3764AB004FA0BE /* Build configuration list for PBXNativeTarget "SwiftfulThings" */;
@@ -193,6 +281,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					DB8D92CF2CA38F87009839E2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DBFAC6582C3764A9004FA0BE;
+					};
 					DBFAC6582C3764A9004FA0BE = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -212,11 +304,19 @@
 			projectRoot = "";
 			targets = (
 				DBFAC6582C3764A9004FA0BE /* SwiftfulThings */,
+				DB8D92CF2CA38F87009839E2 /* SwiftfulThings_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DB8D92CE2CA38F87009839E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBFAC6572C3764A9004FA0BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,12 +329,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB8D92CC2CA38F87009839E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8D92DA2CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift in Sources */,
+				DB8D92D32CA38F87009839E2 /* SwiftfulThings_Tests.swift in Sources */,
+				DB6B11152CA777B200B0F670 /* NewMockDataService_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBFAC6552C3764A9004FA0BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8D92CB2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift in Sources */,
+				DB6B11132CA7777D00B0F670 /* NewMockDataService.swift in Sources */,
+				DB6B11182CA77DAE00B0F670 /* UITestingBootcampView.swift in Sources */,
 				DBDF3EF82C7807C200CDF2FD /* AppTabbarView.swift in Sources */,
 				DB8B362F2C48991600AABDEE /* CustomShapesAnimateableData.swift in Sources */,
+				DB8D92C92CA38D61009839E2 /* UnitTestingBootcampView.swift in Sources */,
 				DB1947762C47360D005336DF /* CustomShapes.swift in Sources */,
 				DB21870A2C91051800E7F944 /* UIViewRepresentableBootcamp.swift in Sources */,
 				DB0BB63D2C5B081C00551AD5 /* GeometryPreferenceKey.swift in Sources */,
@@ -254,8 +368,10 @@
 				DB5510B72C86925200B82121 /* AppNavBarView.swift in Sources */,
 				DBF4F7BF2C3F59EA00984D49 /* CustomTransition.swift in Sources */,
 				DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */,
+				DB7F91C42C9BAAEC004644D6 /* DependencyInjectionBootcamp.swift in Sources */,
 				DB1947782C473CF6005336DF /* CustomShapesArcsQuadCurves.swift in Sources */,
 				DB5510BC2C8696DB00B82121 /* CustomNavBarContainerView.swift in Sources */,
+				DB7F91C22C9A56FE004644D6 /* ProtocolsBootcamp.swift in Sources */,
 				DB0BB6382C599D8C00551AD5 /* ViewBuilderBootcamp.swift in Sources */,
 				DB0BB63A2C5B035A00551AD5 /* PreferenceKeyPage.swift in Sources */,
 				DBDF3EFC2C7E912200CDF2FD /* CustomTabbarContainerView.swift in Sources */,
@@ -264,7 +380,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DB8D92D52CA38F87009839E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBFAC6582C3764A9004FA0BE /* SwiftfulThings */;
+			targetProxy = DB8D92D42CA38F87009839E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		DB8D92D72CA38F87009839E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigues.SwiftfulThings-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftfulThings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftfulThings";
+			};
+			name = Debug;
+		};
+		DB8D92D82CA38F87009839E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rodrigues.SwiftfulThings-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftfulThings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftfulThings";
+			};
+			name = Release;
+		};
 		DBFAC6652C3764AB004FA0BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,6 +601,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB8D92D62CA38F87009839E2 /* Build configuration list for PBXNativeTarget "SwiftfulThings_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8D92D72CA38F87009839E2 /* Debug */,
+				DB8D92D82CA38F87009839E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DBFAC6542C3764A9004FA0BE /* Build configuration list for PBXProject "SwiftfulThings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
