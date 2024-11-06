@@ -39,6 +39,7 @@
 		DB8D92CB2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92CA2CA38EBE009839E2 /* UnitTestingBootcampViewModel.swift */; };
 		DB8D92D32CA38F87009839E2 /* SwiftfulThings_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92D22CA38F87009839E2 /* SwiftfulThings_Tests.swift */; };
 		DB8D92DA2CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D92D92CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift */; };
+		DB8FC1302CCD466F0002FDBB /* FuturesCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8FC12F2CCD466F0002FDBB /* FuturesCombineBootcamp.swift */; };
 		DBBED6242C45EA2300640CC5 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */; };
 		DBDF3EF82C7807C200CDF2FD /* AppTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF3EF72C7807C200CDF2FD /* AppTabbarView.swift */; };
 		DBDF3EFA2C7808B700CDF2FD /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF3EF92C7808B700CDF2FD /* CustomTabbarView.swift */; };
@@ -102,6 +103,7 @@
 		DB8D92D02CA38F87009839E2 /* SwiftfulThings_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulThings_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8D92D22CA38F87009839E2 /* SwiftfulThings_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThings_Tests.swift; sourceTree = "<group>"; };
 		DB8D92D92CA3903E009839E2 /* UnitTestingBootcampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel_Tests.swift; sourceTree = "<group>"; };
+		DB8FC12F2CCD466F0002FDBB /* FuturesCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesCombineBootcamp.swift; sourceTree = "<group>"; };
 		DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
 		DBDF3EF72C7807C200CDF2FD /* AppTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabbarView.swift; sourceTree = "<group>"; };
 		DBDF3EF92C7808B700CDF2FD /* CustomTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarView.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				DBF4F7BE2C3F59EA00984D49 /* CustomTransition.swift */,
 				DB0BB6372C599D8C00551AD5 /* ViewBuilderBootcamp.swift */,
 				DBBED6232C45EA2300640CC5 /* MatchedGeometryEffect.swift */,
+				DB8FC12F2CCD466F0002FDBB /* FuturesCombineBootcamp.swift */,
 				DB5510B82C86928500B82121 /* CustomNavBar */,
 				DB1947772C473CF6005336DF /* CustomShapesArcsQuadCurves.swift */,
 				DB0BB63B2C5B07F600551AD5 /* PreferenceKeys */,
@@ -444,6 +447,7 @@
 				DB1E39B12CC6D0CA00C01CB0 /* AdvancedCombineBootcamp.swift in Sources */,
 				DB5510BE2C86984800B82121 /* CustomNavView.swift in Sources */,
 				DB5510BA2C86949900B82121 /* CustomNavBarView.swift in Sources */,
+				DB8FC1302CCD466F0002FDBB /* FuturesCombineBootcamp.swift in Sources */,
 				DBFAC65D2C3764A9004FA0BE /* SwiftfulThingsApp.swift in Sources */,
 				DB3E96CE2C3CAB7A006CCA6A /* CustomButtonStyles.swift in Sources */,
 				DB21870C2C92580600E7F944 /* UIViewControllerRepresentableBootcamp.swift in Sources */,
